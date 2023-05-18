@@ -7,7 +7,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Meu Menu",
-      theme: ThemeData(primaryColor: Colors.orangeAccent),
+      theme: ThemeData
+          //primaryColor: Colors.orangeAccent),
+          (primaryColor: Colors.orange),
       // ignore: prefer_const_constructors
       home: TelaInicial(),
     );
